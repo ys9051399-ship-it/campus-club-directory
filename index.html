@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Clubs</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Nit durgapur</h1>
+        <h1>What's Happening On Campus</h1>
+
+        <p>
+            Every club, in one place — their story, their people, and the posters they made to get you through the door.
+        </p>
+
+
+        <div class="tabs">
+
+            <div class="active">
+                <button onclick="showClub('robotics')">Robotics And Technical Society</button>
+                <p>TECH</p>
+            </div>
+
+            <div class="active">
+                <button onclick="showClub('music')">Music And Dance Society</button>
+                <p>MUSIC</p>
+            </div>
+
+            <div class="active">
+                <button onclick="showClub('lens')">Lens Collective</button>
+                <p>MEDIA</p>
+            </div>
+
+            <div class="active">
+                <button onclick="showClub('drama')">Drama Society</button>
+                <p>DRAMA</p>
+            </div>
+
+            <div class="active">
+                <button onclick="showClub('Debate')">Debating Society</button>
+                <p>Debate</p>
+            </div>
+
+            <div class="active">
+                <button onclick="showClub('Entrepreneur')">Entrepreneur Society</button>
+                <p>Entrepreneur</p>
+            </div>
+
+        </div>
+
+
+
+        <div id="robotics" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Robotics And Technical Society</h2>
+            <p>
+                We design, build and program robots for competitions and real-world applications.
+            </p>
+
+            <div id="robotics-details" class="tech-info">
+
+                <h2>Robotics Society</h2>
+
+                <p>We have variety of it</p>
+
+
+                <div class="techi">
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/b35d4023d1a48778c09366527db85b7f.png')"
+                        onclick="showTechClub('CCA')">CCA(Center For Cognitive Activities)</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/aab3beea3d8835bfd600502b307fdb5f.png'); --hover-opacity: 0.4"
+                        onclick="showTechClub('ISTE')">ISTE(Indian Society for Technical Education)</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/06c30450d92d66b002ef985786fc158a.png')"
+                        onclick="showTechClub('IEEE')">IEEE( Institute of Electrical and Electronics Engineers)</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/e526f7e803a354c61495d84ad8cbecc0.png')"
+                        onclick="showTechClub('SAE')">SAE(Society of Automotive Engineers)</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/a45620c68904b70f231b4d926972ec9e.png')"
+                        onclick="showTechClub('MNTC')">MNTC(Maths N Tech Club)</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/697b8892b89e52ad9ead93692aed8608.jpg')"
+                        onclick="showTechClub('Rec')">RECURSSION</button>
+
+                    <button type="button" class="tech-club-btn club-logo-btn"
+                        style="--logo: url('https://nitdgp.ac.in/uploads/76ab6b64bdd80ba48f36395262de0342.png')"
+                        onclick="showTechClub('Gluc')">GNU Linux Users Group</button>
+
+                </div>
+
+
+                <div id="CCA" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About CCA</h1>
+                    <p>CCA (Centre for Cognitive Activities) is the premier technical and innovation hub of NIT
+                        Durgapur, serving as the driving force behind the institute's scientific, technical, and
+                        intellectual ecosystem. It provides a platform where students transform classroom knowledge into
+                        practical applications through creativity, collaboration, and innovation. The club organizes a
+                        diverse range of technical competitions, coding contests, workshops, seminars, quizzes,
+                        hackathons, and interactive sessions that encourage students to think critically, develop
+                        problem-solving skills, and explore emerging technologies. By fostering a culture of curiosity
+                        and continuous learning, CCA inspires students to challenge conventional thinking and push the
+                        boundaries of innovation.
+                    </p>
+                    <p>Beyond academics, CCA plays a pivotal role in coordinating and managing many of the institute's
+                        flagship technical and extracurricular activities throughout the year. The club brings together
+                        students from diverse disciplines, creating an environment that promotes teamwork, leadership,
+                        and interdisciplinary collaboration. Through its initiatives, CCA nurtures young innovators,
+                        equips them with practical and organizational skills, and empowers them to become confident
+                        professionals capable of addressing real-world challenges. With its unwavering commitment to
+                        excellence and innovation, CCA continues to be a cornerstone of technical growth and student
+                        development at NIT Durgapur.</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY CCA</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+                <div id="ISTE" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About ISTE</h1>
+                    <p>The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit
+                        making Society for the Technical Education System in our country with the motto of Career
+                        Development of Teachers and Personality Development of Students and overall development of our
+                        Technical Education System operating in association with All India Council for Technical
+                        Education (AICTE) and other International Projects.
+                    </p>
+                    <p>ISTE NIT Durgapur took birth on the auspicious occasion of Saraswati Puja Day way back in
+                        February, 1995 in our erstwhile called REC Durgapur and is the Oldest Student Chapter of Eastern
+                        India. Additionally, ISTE NIT Durgapur nominates projects and papers for the Indian Journal of
+                        Technical Education (IJTE) published by the ISTE HQ, New Delhi on quarterly basis with the aim
+                        to provide an appropriate platform presenting well considered, meaningful, constructively
+                        thought provoking, non-political and non-conventional but critically analysing and synthesizing
+                        present and future aspects of the technical education system supported with meaningful
+                        suggestions for solutions, refinement and innovation</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY ISTE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+
+
+                </div>
+
+                <div id="IEEE" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About ISTE</h1>
+                    <p>The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit
+                        making Society for the Technical Education System in our country with the motto of Career
+                        Development of Teachers and Personality Development of Students and overall development of our
+                        Technical Education System operating in association with All India Council for Technical
+                        Education (AICTE) and other International Projects.
+                    </p>
+                    <p>ISTE NIT Durgapur took birth on the auspicious occasion of Saraswati Puja Day way back in
+                        February, 1995 in our erstwhile called REC Durgapur and is the Oldest Student Chapter of Eastern
+                        India. Additionally, ISTE NIT Durgapur nominates projects and papers for the Indian Journal of
+                        Technical Education (IJTE) published by the ISTE HQ, New Delhi on quarterly basis with the aim
+                        to provide an appropriate platform presenting well considered, meaningful, constructively
+                        thought provoking, non-political and non-conventional but critically analysing and synthesizing
+                        present and future aspects of the technical education system supported with meaningful
+                        suggestions for solutions, refinement and innovation</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY ISTE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+                <div id="SAE" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About SAE</h1>
+                    <p>The SAE Collegiate Club of NIT Durgapur is one of the institute's most dynamic technical
+                        societies, dedicated to fostering innovation, creativity, and excellence in the field of
+                        automotive engineering and emerging technologies. Throughout the year, the club organizes a wide
+                        variety of flagship events, hands-on workshops, competitions, and expert lectures that provide
+                        students with invaluable practical exposure. Some of its most notable initiatives include
+                        F.I.S.T, CrypTech, Software Defined Vehicle (SDV) Workshop, Drag & Drift Competition, and TEDx
+                        Talks, each designed to inspire technical curiosity, enhance problem-solving abilities, and
+                        bridge the gap between theoretical knowledge and real-world applications.
+                    </p>
+                    <p>As an integral part of Team Aavishkar, SAE plays a crucial role in planning and managing Aarohan,
+                        the second-largest techno-management festival in Eastern India, attracting participants from
+                        prestigious institutions across the country. Beyond on-campus activities, the club has
+                        established a strong digital presence through platforms such as Instagram, LinkedIn, Facebook,
+                        and YouTube, where it regularly shares insightful technology-related content, event highlights,
+                        project showcases, and industry updates. By connecting students, professionals, and automobile
+                        enthusiasts worldwide, the club continues to build a vibrant community that promotes learning,
+                        collaboration, and innovation in the ever-evolving world of engineering.</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY SAE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+                <div id="MNTC" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About ISTE</h1>
+                    <p>The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit
+                        making Society for the Technical Education System in our country with the motto of Career
+                        Development of Teachers and Personality Development of Students and overall development of our
+                        Technical Education System operating in association with All India Council for Technical
+                        Education (AICTE) and other International Projects.
+                    </p>
+                    <p>ISTE NIT Durgapur took birth on the auspicious occasion of Saraswati Puja Day way back in
+                        February, 1995 in our erstwhile called REC Durgapur and is the Oldest Student Chapter of Eastern
+                        India. Additionally, ISTE NIT Durgapur nominates projects and papers for the Indian Journal of
+                        Technical Education (IJTE) published by the ISTE HQ, New Delhi on quarterly basis with the aim
+                        to provide an appropriate platform presenting well considered, meaningful, constructively
+                        thought provoking, non-political and non-conventional but critically analysing and synthesizing
+                        present and future aspects of the technical education system supported with meaningful
+                        suggestions for solutions, refinement and innovation</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY ISTE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+                <div id="Rec" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About ISTE</h1>
+                    <p>The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit
+                        making Society for the Technical Education System in our country with the motto of Career
+                        Development of Teachers and Personality Development of Students and overall development of our
+                        Technical Education System operating in association with All India Council for Technical
+                        Education (AICTE) and other International Projects.
+                    </p>
+                    <p>ISTE NIT Durgapur took birth on the auspicious occasion of Saraswati Puja Day way back in
+                        February, 1995 in our erstwhile called REC Durgapur and is the Oldest Student Chapter of Eastern
+                        India. Additionally, ISTE NIT Durgapur nominates projects and papers for the Indian Journal of
+                        Technical Education (IJTE) published by the ISTE HQ, New Delhi on quarterly basis with the aim
+                        to provide an appropriate platform presenting well considered, meaningful, constructively
+                        thought provoking, non-political and non-conventional but critically analysing and synthesizing
+                        present and future aspects of the technical education system supported with meaningful
+                        suggestions for solutions, refinement and innovation</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY ISTE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+                <div id="Gluc" class="tech-club">
+
+                    <h1 style="text-decoration: underline;">About ISTE</h1>
+                    <p>The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit
+                        making Society for the Technical Education System in our country with the motto of Career
+                        Development of Teachers and Personality Development of Students and overall development of our
+                        Technical Education System operating in association with All India Council for Technical
+                        Education (AICTE) and other International Projects.
+                    </p>
+                    <p>ISTE NIT Durgapur took birth on the auspicious occasion of Saraswati Puja Day way back in
+                        February, 1995 in our erstwhile called REC Durgapur and is the Oldest Student Chapter of Eastern
+                        India. Additionally, ISTE NIT Durgapur nominates projects and papers for the Indian Journal of
+                        Technical Education (IJTE) published by the ISTE HQ, New Delhi on quarterly basis with the aim
+                        to provide an appropriate platform presenting well considered, meaningful, constructively
+                        thought provoking, non-political and non-conventional but critically analysing and synthesizing
+                        present and future aspects of the technical education system supported with meaningful
+                        suggestions for solutions, refinement and innovation</p>
+
+                    <div class="pics">
+                        <h2>Events Conducted BY ISTE</h2>
+                        <div class="gallery">
+                            <img src="images/img1.jpg" alt="img1">
+                            <img src="images/img2.jpg" alt="img2">
+                            <img src="images/img3.jpg" alt="img3">
+                            <img src="images/img4.jpg" alt="img4">
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <h3 style="padding-left:10px;">Know More</h3>
+
+                    <p style="padding-left:10px;">
+                        Interested in learning more about the club, its projects, events, and achievements?
+                        Visit the club's official website for the latest updates and opportunities.
+                    </p>
+
+                    <a href="https://www.ccanitd.in/" target="_blank" class="visit-btn">
+                        Visit Official Website →
+                    </a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div id="music" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Music And Dance Society</h2>
+            <p>
+                We organize concerts, open mics, jam sessions and musical workshops.
+            </p>
+
+            <p>Choose a club:</p>
+
+            <div class="techi">
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/f7177d943bad513a733c266e10177018.jpeg')"
+                    onclick="showTechClub('SPICMACAY')">SPIC MACAY
+                    NIT Durgapur Chapter</button>
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/266d54222cf8776a09ea7b71121bd328.jpg')"
+                    onclick="showTechClub('MusicClub')">Music
+                    Club</button>
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/6efcabc869502d18451624e4072c42f5.jpg')"
+                    onclick="showTechClub('RadioNitroz')">Radio
+                    Nitroz</button>
+                
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/5d919f5d5a4e0e5c37f63cf2befed147.jpeg')"
+                    onclick="showTechClub('DanceClub')">Dance Club</button>
+            </div>
+
+            <div id="SPICMACAY" class="tech-club">
+                <h1 style="text-decoration: underline;">About SPIC MACAY</h1>
+                <p>SPIC MACAY (Society for the Promotion of Indian Classical Music and Culture Amongst Youth) NIT
+                    Durgapur
+                    Chapter is a group of enthusiasts with a dream to enrich the quality of formal education by exposing
+                    students to India's rich classical music, dance, and cultural heritage.</p>
+
+                <div class="pics">
+                    <h2>Events Conducted BY SPIC MACAY</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://spicmacay.vercel.app/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            <div id="MusicClub" class="tech-club">
+                <h1 style="text-decoration: underline;">About Music Club</h1>
+                <p>Music Club is the official Music Club of NIT Durgapur. We bring the love of music to campus through
+                    performances, jam sessions, and musical events throughout the year.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Music Club</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            <div id="RadioNitroz" class="tech-club">
+                <h1 style="text-decoration: underline;">About Radio Nitroz</h1>
+                <p>Radio Nitroz is a 24/7 internet radio station which plays a mix of Hindi and English music, run by
+                    and for
+                    the students of NIT Durgapur.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Radio Nitroz</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+
+            <div id="DanceClub" class="tech-club">
+                <h1 style="text-decoration: underline;">About Dance Club</h1>
+                <p>Dance Club is the official dance club of NIT Durgapur. The club performs at Independence Day,
+                    Republic Day,
+                    and other major institute events, bringing together students passionate about dance and movement.
+                </p>
+                <div class="pics">
+                    <h2>Events Conducted BY Dance Club</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://www.facebook.com/DanceClubNITD/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+        </div>
+
+
+        <div id="lens" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Lens Collective</h2>
+            <p>
+                We capture campus life through photography and videography.
+            </p>
+
+            <p>Choose a club:</p>
+
+            <div class="techi">
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/ed533b14af4e9ec9b98a035a87a15fa4.jpg')"
+                    onclick="showTechClub('Strokes')">Strokes</button>
+            </div>
+
+            <div id="Strokes" class="tech-club">
+                <h1 style="text-decoration: underline;">About Strokes</h1>
+                <p>Strokes is the official art and photography club of NIT Durgapur. It is among the youngest clubs on
+                    campus, bringing together students passionate about visual storytelling, photography, and creative
+                    expression.</p>
+
+                <div class="pics">
+                    <h2>Events Conducted BY Strokes</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://www.facebook.com/Strokes.NITD/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+        </div>
+
+
+
+        <div id="drama" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Drama Society</h2>
+            <p>
+                We perform stage plays, street theatre and acting workshops.
+            </p>
+
+            <p>Choose a club:</p>
+
+            <div class="techi">
+                
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/0cc43b50177f810ab3343904686b094a.png')"
+                    onclick="showTechClub('Enteract')">Enteract</button>
+
+                
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/df28040e57c786faa1713656bce18a57.jpg')"
+                    onclick="showTechClub('Darpan')">Darpan</button>
+
+                
+
+                
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/0eefa6ff7978830aff71410c14f56b3d.jpg')"
+                    onclick="showTechClub('Prakriti')">Prakriti
+                    Club</button>
+
+            </div>
+
+            
+
+            <div id="Enteract" class="tech-club">
+                <h1 style="text-decoration: underline;">About Enteract</h1>
+                <p>Enteract is the official Dramatics Club of NIT Durgapur. It is a home to all theatre lovers and
+                    enthusiasts,
+                    organizing stage productions, workshops, and dramatic performances throughout the year.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Enteract</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://www.facebook.com/enteractclub" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            
+
+            <div id="Darpan" class="tech-club">
+                <h1 style="text-decoration: underline;">About Darpan</h1>
+                <p>Darpan is the Hindi society of NIT Durgapur, actively engaged in the service of Hindi language and
+                    literature, off-campus and on-campus, through literary events and cultural programs.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Darpan</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://www.facebook.com/darpan.nitdgp/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            
+
+            
+
+            <div id="Prakriti" class="tech-club">
+                <h1 style="text-decoration: underline;">About Prakriti Club</h1>
+                <p>Prakriti Club is the Environmental Club of NIT Durgapur, striving to make the campus and community
+                    more
+                    environmentally conscious through awareness drives, plantation events, and sustainability
+                    initiatives.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Prakriti Club</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            <div id="QuizInc" class="tech-club">
+                <h1 style="text-decoration: underline;">About QuizInc</h1>
+                <p>QuizInc is the official Knowledge and Quizzing club of NIT Durgapur, which dabbles in organizing quiz
+                    competitions and knowledge-based events for students across the institute.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY QuizInc</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+        </div>
+
+
+        <div id="Debate" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;"> Debating Society</h2>
+            <p>
+                
+            </p>
+
+            <div class="techi">
+                <button type="button" class="tech-club-btn club-logo-btn" style="--logo: url('https://nitdgp.ac.in/uploads/697b8892b89e52ad9ead93692aed8608.jpg')" onclick="showTechClub('Debating')">Debating Society</button>
+            </div>
+
+            <div id="Debating" class="tech-club">
+                <h1 style="text-decoration: underline;">About Debating Society</h1>
+                <p>The Debating Society is the official debating club of NIT Durgapur. At its core, this club is an
+                    institution that promotes critical thinking, public speaking, and structured argumentation among
+                    students.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Debating Society</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://m.facebook.com/debatingsociety3103.nitd/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+        </div>
+
+        <div id ="Entrepreneur" class="club-info">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Drama Society</h2>
+            <p>
+                We perform stage plays, street theatre and acting workshops.
+            </p>
+
+            <p>Choose a club:</p>
+
+            <div class="techi">
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/ded9d9862d462604271ff9cfc7c710b2.jpg')"
+                    onclick="showTechClub('SAI')">Students' Alumni Interaction (SAI) cell</button>
+
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/92b6dcb9006c32d78ada34db31c9d432.jpg')"
+                    onclick="showTechClub('IIM')">IIM Student Chapter</button>
+
+                <button type="button" class="tech-club-btn club-logo-btn"
+                    style="--logo: url('https://nitdgp.ac.in/uploads/688ceb18c23f24992fc3a3c820bdb47e.jpg')"
+                    onclick="showTechClub('EDC')">Entrepreneurship
+                    Development Cell</button>
+
+            </div>
+
+
+            <div id="IIM" class="tech-club">
+                <h1 style="text-decoration: underline;">About IIM Student club</h1>
+                <p>The Debating Society is the official debating club of NIT Durgapur. At its core, this club is an
+                    institution that promotes critical thinking, public speaking, and structured argumentation among
+                    students.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY IIM Student club</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://m.facebook.com/debatingsociety3103.nitd/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            <div id="SAI" class="tech-club">
+                <h1 style="text-decoration: underline;">About Student Alumini Interaction (SAI) Society</h1>
+                <p>The Debating Society is the official debating club of NIT Durgapur. At its core, this club is an
+                    institution that promotes critical thinking, public speaking, and structured argumentation among
+                    students.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY  About Student Alumini Interaction (SAI) Society</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://m.facebook.com/debatingsociety3103.nitd/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+            <div id="EDC" class="tech-club">
+                <h1 style="text-decoration: underline;">About Enterpreneurship Development Cell(EDC)</h1>
+                <p>The Debating Society is the official debating club of NIT Durgapur. At its core, this club is an
+                    institution that promotes critical thinking, public speaking, and structured argumentation among
+                    students.</p>
+                <div class="pics">
+                    <h2>Events Conducted BY Debating Society</h2>
+                    <div class="gallery">
+                        <img src="images/img1.jpg" alt="img1">
+                        <img src="images/img2.jpg" alt="img2">
+                    </div>
+                </div>
+                <hr>
+                <h3 style="padding-left:10px;">Know More</h3>
+                <p style="padding-left:10px;">
+                    Interested in learning more about the club, its projects, events, and achievements?
+                    Visit the club's official website for the latest updates and opportunities.
+                </p>
+                <a href="https://m.facebook.com/debatingsociety3103.nitd/" target="_blank" class="visit-btn">
+                    Visit Official Website →
+                </a>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
